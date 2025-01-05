@@ -39,7 +39,7 @@ fetch(urlServer + "/get_image/" + username)
 
 // aggiornare i titoli
 url_to_send_message = "https://diegopirovano.pythonanywhere.com/sh/"+encodeURIComponent(username);
-url_home = "https://cubettocubetto.github.io/Libro_dell_ospite/index.html"
+url_home = "https://diegopirovanoit.github.io/Libro_dell_ospite/index.html"
 
 document.getElementById("link_invia_commento").href = url_to_send_message
 document.getElementById("link_home").href = url_home

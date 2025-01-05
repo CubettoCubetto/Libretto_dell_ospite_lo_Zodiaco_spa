@@ -108,7 +108,7 @@ document.getElementById('createAccountForm').addEventListener('submit', function
             return;
         }
         // Open the account confirmation page
-        window.open("https://cubettocubetto.github.io/Libro_dell_ospite/account_creato/account_creato.html?username=" + data['username'], "_self");
+        window.open("https://diegopirovanoit.github.io/Libro_dell_ospite/account_creato/account_creato.html?username=" + data['username'], "_self");
     })
     .catch(error => {
         stopLoading();
